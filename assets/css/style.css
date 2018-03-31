@@ -63,7 +63,6 @@ nav a:hover {
 
 h1,
 h2,
-h3,
 p {
   margin-bottom: 20px;
 }
@@ -73,8 +72,7 @@ p:last-child {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -87,10 +85,21 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-h2,
-h3 {
+h2 {
   font-size: 22px;
 }
+ h3 {
+  position: relative;
+  margin-bottom: 20px; 
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700; 
+  font-size: 22px;
+   background-color:#4aaaa5;
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
 
 /* header */
 
@@ -257,6 +266,17 @@ input[type=submit] {
 nav {
   padding-right: 5%;
 }
+.auth-image {
+  max-width: 50%;
+  float: left;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  
+  }
+  p {
+    text-align: left;
+  }
+ 
   .sidebar {
     float: left;
     text-align: center;
@@ -282,6 +302,9 @@ nav {
 }
 @media screen and (max-width: 625px) {
 
+  .auth-image {
+    max-width: 100%;
+  }
   .work {
     width: 100%;
   }
