@@ -26,6 +26,11 @@ body {
   min-height: 100%;
   margin: 0 auto -105px;
 }
+.work {
+  width: 45%;
+  float: left;
+  margin: 2%;
+}
 
 footer,
 .push {
@@ -49,14 +54,37 @@ nav a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
+.porthead:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.porthead1:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+a {
+  text-decoration:none;
+}
+.resume:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 
 /* end hover styling */
+.porthead {
+  width: 48%;
+  float: left;
+}
+.porthead1 {
+  width: 48%;
+  float: right;
+}
 
 /* general styling */
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 95%;
   margin: 0 auto;
   clear: both;
 }
@@ -168,7 +196,7 @@ footer {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.479);
   border: 1px solid #ddd;
 }
 
@@ -198,18 +226,22 @@ h3,
 }
 
 .auth-image {
-width: 100%;
+width: 30%;
+float: left;
+padding-right: 5%;
+padding-bottom: 5%;
 
 }
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 75%;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.479);
   border: 1px solid #ddd;
 }
+
 
 
 
